@@ -235,7 +235,9 @@
       <key>ru</key>
       <value>ЧФ=Ч%</value>
     </editFormat>
-    <minValue xsi:type="core:UndefinedValue"/>
+    <minValue xsi:type="core:StringValue">
+      <value>0</value>
+    </minValue>
     <maxValue xsi:type="core:StringValue">
       <value>100</value>
     </maxValue>
@@ -331,29 +333,6 @@
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-    <attributes uuid="8e6fe1fb-3f24-49ca-bda2-75d73150c48a">
-      <name>Скидка</name>
-      <synonym>
-        <key>ru</key>
-        <value>Скидка</value>
-      </synonym>
-      <type>
-        <types>Number</types>
-        <numberQualifiers>
-          <precision>5</precision>
-          <scale>2</scale>
-          <nonNegative>true</nonNegative>
-        </numberQualifiers>
-      </type>
-      <minValue xsi:type="core:StringValue">
-        <value>0</value>
-      </minValue>
-      <maxValue xsi:type="core:StringValue">
-        <value>100</value>
-      </maxValue>
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
